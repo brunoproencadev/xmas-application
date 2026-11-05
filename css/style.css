@@ -357,3 +357,39 @@ ul {
     text-align: center;
     font-size: 0.85rem;
 }
+@media (max-width: 900px) {
+    .navbar {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 12px;
+    }
+
+    .logo,
+    .nav-links,
+    .nav-actions {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .split-section,
+    .split-section-reverse {
+        grid-template-columns: 1fr;
+    }
+
+    .split-col-right,
+    .split-col-text {
+        padding: 40px 24px;
+    }
+
+    .vertical-text {
+        font-size: 2.8rem;
+    }
+}
