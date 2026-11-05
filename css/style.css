@@ -255,3 +255,35 @@ ul {
     background-color: #D94132;
     color: #FFFFFF;
 }
+.press-section {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #EAE5DE;
+    border-bottom: 1px solid #EAE5DE;
+}
+
+.press-title {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #D94132;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.press-logos {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.partner-name {
+    display: inline-block;
+    margin: 10px 20px;
+    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #A34033;
+}
