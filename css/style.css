@@ -111,3 +111,19 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+.hero-media-box {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
