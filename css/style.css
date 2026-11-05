@@ -25,6 +25,7 @@ a {
 ul {
     list-style: none;
 }
+
 .hero-section {
     background-color: #D94132;
     color: #FFFFFF;
@@ -54,6 +55,7 @@ ul {
     display: inline-block;
     object-fit: contain;
 }
+
 .nav-links {
     text-align: center;
     white-space: nowrap;
@@ -72,6 +74,7 @@ ul {
     white-space: nowrap;
     color: #fff;
     text-shadow: 1px 1px 1px #7c0000;
+
     transition: transform 0.2s ease-in-out, text-shadow 0.3s ease;
     display: inline-block;
 }
@@ -87,6 +90,33 @@ ul {
 .nav-links li:hover {
     cursor: pointer;
 }
+
+
+.nav-actions {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-nav {
+    background-color: #FFFFFF;
+    color: #D94132;
+}
+
 .hero-content {
     max-width: 1200px;
     margin: 20px auto 0 auto;
@@ -97,7 +127,7 @@ ul {
 }
 
 .hero-title {
-    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-family: 'Geist', 'Montserrat', sans-serif;
     font-size: 4.33rem;
     line-height: 0.92;
     text-transform: uppercase;
@@ -111,6 +141,7 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 .hero-media-box {
     width: 100%;
     display: grid;
@@ -127,6 +158,21 @@ ul {
     display: block;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+
+.image-placeholder {
+    width: 100%;
+    min-height: 380px;
+    border: 2px dashed rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 .marquee-bar {
     background-color: #FFFFFF;
     color: #D94132;
@@ -144,7 +190,7 @@ ul {
 .marquee-content span {
     display: inline-block;
     padding: 0 25px;
-    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-family: 'Geist', 'Montserrat', sans-serif;
     font-size: 0.9rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -154,10 +200,13 @@ ul {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
 }
+
+
 .split-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,6 +221,7 @@ ul {
     grid-template-columns: auto 1fr auto;
     align-items: center;
 }
+
 .vertical-text {
     font-family: 'Anton', 'Montserrat', sans-serif;
     font-size: 4.5rem;
@@ -185,6 +235,7 @@ ul {
 .vertical-text.left-text {
     transform: rotate(180deg);
 }
+
 .product-showcase {
     display: grid;
     place-items: center;
@@ -193,7 +244,7 @@ ul {
 }
 
 .product-placeholder {
-    border: 2px dashed rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 0.05);
     color: #FFFFFF;
     width: 100%;
@@ -213,6 +264,7 @@ ul {
     display: block;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
 }
+
 .split-col-right {
     background-color: #FAF7F2;
     padding: 60px 80px;
@@ -238,23 +290,11 @@ ul {
     margin-bottom: 30px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 24px;
-    border-radius: 999px;
-    font-size: 0.85rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    text-align: center;
-    border: none;
-}
-
 .btn-accent {
     background-color: #D94132;
     color: #FFFFFF;
 }
+
 .press-section {
     background-color: #FFFFFF;
     padding: 40px 20px;
@@ -287,6 +327,7 @@ ul {
     letter-spacing: 2px;
     color: #A34033;
 }
+
 .split-section-reverse {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -323,6 +364,7 @@ ul {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
+
 .split-col-image {
     background-color: #FAF7F2;
     padding: 40px;
@@ -350,6 +392,7 @@ ul {
     display: block;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
+
 .footer {
     background-color: #222222;
     color: #999999;
@@ -357,6 +400,7 @@ ul {
     text-align: center;
     font-size: 0.85rem;
 }
+
 @media (max-width: 900px) {
     .navbar {
         grid-template-columns: 1fr;
