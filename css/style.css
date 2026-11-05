@@ -172,3 +172,16 @@ ul {
     grid-template-columns: auto 1fr auto;
     align-items: center;
 }
+.vertical-text {
+    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    color: #D94132;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    letter-spacing: 4px;
+    user-select: none;
+}
+
+.vertical-text.left-text {
+    transform: rotate(180deg);
+}
