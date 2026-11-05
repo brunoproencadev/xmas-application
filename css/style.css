@@ -323,3 +323,30 @@ ul {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
+.split-col-image {
+    background-color: #FAF7F2;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.location-placeholder {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    min-height: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.location-image {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
