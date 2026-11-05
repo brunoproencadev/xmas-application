@@ -127,3 +127,34 @@ ul {
     display: block;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+.marquee-bar {
+    background-color: #FFFFFF;
+    color: #D94132;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-flex;
+    animation: marquee-infinito 15s linear infinite;
+}
+
+.marquee-content span {
+    display: inline-block;
+    padding: 0 25px;
+    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@keyframes marquee-infinito {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
