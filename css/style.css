@@ -158,3 +158,17 @@ ul {
         transform: translateX(-50%);
     }
 }
+.split-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 520px;
+}
+
+.split-col-left {
+    background-color: #581815;
+    padding: 40px 24px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
