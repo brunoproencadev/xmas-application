@@ -54,3 +54,36 @@ ul {
     display: inline-block;
     object-fit: contain;
 }
+.nav-links {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.nav-links a {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow: 1px 1px 1px #7c0000;
+    transition: transform 0.2s ease-in-out, text-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.nav-links li:hover a {
+    transform: translateY(-2px);
+    text-shadow:
+        0 0 4px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ff0000;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+}
