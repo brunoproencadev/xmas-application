@@ -213,3 +213,45 @@ ul {
     display: block;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
 }
+.split-col-right {
+    background-color: #FAF7F2;
+    padding: 60px 80px;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+.split-title {
+    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-size: 3.8rem;
+    line-height: 0.95;
+    color: #D94132;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.split-description {
+    font-size: 0.95rem;
+    color: #666666;
+    line-height: 1.6;
+    max-width: 440px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.btn-accent {
+    background-color: #D94132;
+    color: #FFFFFF;
+}
