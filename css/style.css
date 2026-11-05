@@ -350,3 +350,10 @@ ul {
     display: block;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
+.footer {
+    background-color: #222222;
+    color: #999999;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.85rem;
+}
