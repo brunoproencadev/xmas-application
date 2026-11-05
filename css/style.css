@@ -185,3 +185,31 @@ ul {
 .vertical-text.left-text {
     transform: rotate(180deg);
 }
+.product-showcase {
+    display: grid;
+    place-items: center;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.product-placeholder {
+    border: 2px dashed rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 320px;
+    min-height: 380px;
+    display: grid;
+    place-items: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.product-placeholder img {
+    max-width: 100%;
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+}
