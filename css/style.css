@@ -287,3 +287,39 @@ ul {
     letter-spacing: 2px;
     color: #A34033;
 }
+.split-section-reverse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 480px;
+}
+
+.split-col-text {
+    background-color: #D94132;
+    color: #FFFFFF;
+    padding: 60px 80px;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+.split-col-text .section-title {
+    font-family: 'Anton', 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 0.95;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.split-col-text .section-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 440px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
